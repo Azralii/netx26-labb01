@@ -1,7 +1,7 @@
 # ITSX26 – Programmeringsuppgift 1
 
 ## Namn
-Sayid
+Abdulle
 
 ## Klass
 ITSX26
