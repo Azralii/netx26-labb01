@@ -142,7 +142,7 @@ Lämna in följande:
 
 # Studentinformation
 
-**Namn:** Sayid Abdi  
+**Namn:** Abdulle   
 **Klass:** ITSX26  
 **Datum:** 28 augusti 2026
 
