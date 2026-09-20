@@ -149,33 +149,7 @@ DNS-paketen visar inte ensamma vad applikationen därefter gjorde med det upplö
 
 # 6. TCP-analys
 
-Ett TCP-flöde observerades mellan:
-
-```text
-10.0.0.127
-```
-
-och:
-
-```text
-129.149.82.80:443
-```
-
-I PCAP-filen observerades bland annat:
-
-```text
-10.0.0.127 → 129.149.82.80
-35882 → 443 [SYN]
-```
-
-följt av:
-
-```text
-129.149.82.80 → 10.0.0.127
-443 → 35882 [SYN, ACK]
-```
-
-och därefter ACK-trafik.
+Den observerade trafiken visar att klienten försökte etablera en TCP-anslutning till servern på port 443 och att servern svarade på anslutningsförsöket. Därefter observerades fortsatt trafik i flödet
 
 ### Observation
 
