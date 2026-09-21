@@ -409,7 +409,7 @@ Exempel:
 
 **Observation:** SYN och SYN-ACK observerades mot port 443.
 
-**Slutsats:** Klienten och servern kommunicerade via TCP och anslutningen etablerades.
+**Slutsats:** Den observerade trafiken visar att klienten försökte etablera en TCP-anslutning till servern på port 443 och att servern svarade på anslutningsförsöket. Därefter observerades fortsatt trafik i flödet.
 
 **Osäkerhet:** Fångsten representerar endast en begränsad tidsperiod.
 
