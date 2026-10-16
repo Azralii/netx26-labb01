@@ -34,4 +34,19 @@ En IOC-träff innebär inte automatiskt att ett angrepp eller en säkerhetsincid
 Python kan användas för att automatisera logganalys, identifiera misstänkta IP-adresser och skapa en enkel säkerhetsrapport.
 
 ## Evidens
-Resultaten kommer från min lokala körning av Python-skriptet app/security_report.py och finns sparade i output/security_report.txt.
+
+Jag körde Python-skriptet `app/security_report.py` för att analysera loggfilerna.
+
+Resultatet från körningen:
+
+```text
+Failed logins: 4
+Skipped rows: 1
+
+IOC matches:
+198.51.100.44: 1
+203.0.113.15: 2
+
+Firewall IOC matches:
+203.0.113.15: 1
+203.0.113.99: 1
